@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1BF797917849AB800D6EDFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797817849AB800D6EDFB /* UIKit.framework */; };
+		A1BF797B17849AB800D6EDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797A17849AB800D6EDFB /* Foundation.framework */; };
+		A1BF797D17849AB800D6EDFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797C17849AB800D6EDFB /* CoreGraphics.framework */; };
+		A1BF798317849AB800D6EDFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1BF798117849AB800D6EDFB /* InfoPlist.strings */; };
+		A1BF798517849AB800D6EDFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF798417849AB800D6EDFB /* main.m */; };
+		A1BF798917849AB800D6EDFB /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF798817849AB800D6EDFB /* GRAppDelegate.m */; };
+		A1BF798B17849AB800D6EDFB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BF798A17849AB800D6EDFB /* Default.png */; };
+		A1BF798D17849AB800D6EDFB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BF798C17849AB800D6EDFB /* Default@2x.png */; };
+		A1BF798F17849AB800D6EDFB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1BF798E17849AB800D6EDFB /* Default-568h@2x.png */; };
+		A1BF799217849AB800D6EDFB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF799017849AB800D6EDFB /* MainStoryboard_iPhone.storyboard */; };
+		A1BF799517849AB800D6EDFB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF799317849AB800D6EDFB /* MainStoryboard_iPad.storyboard */; };
+		A1BF799817849AB800D6EDFB /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF799717849AB800D6EDFB /* GRViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1BF797517849AB800D6EDFB /* Grio Test Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grio Test Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BF797817849AB800D6EDFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1BF797A17849AB800D6EDFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1BF797C17849AB800D6EDFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1BF798017849AB800D6EDFB /* Grio Test Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grio Test Project-Info.plist"; sourceTree = "<group>"; };
+		A1BF798217849AB800D6EDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1BF798417849AB800D6EDFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1BF798617849AB800D6EDFB /* Grio Test Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Grio Test Project-Prefix.pch"; sourceTree = "<group>"; };
+		A1BF798717849AB800D6EDFB /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		A1BF798817849AB800D6EDFB /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		A1BF798A17849AB800D6EDFB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A1BF798C17849AB800D6EDFB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A1BF798E17849AB800D6EDFB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1BF799117849AB800D6EDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		A1BF799417849AB800D6EDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		A1BF799617849AB800D6EDFB /* GRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
+		A1BF799717849AB800D6EDFB /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1BF797217849AB800D6EDFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF797917849AB800D6EDFB /* UIKit.framework in Frameworks */,
+				A1BF797B17849AB800D6EDFB /* Foundation.framework in Frameworks */,
+				A1BF797D17849AB800D6EDFB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1BF796C17849AB800D6EDFB = {
+			isa = PBXGroup;
+			children = (
+				A1BF797E17849AB800D6EDFB /* Grio Test Project */,
+				A1BF797717849AB800D6EDFB /* Frameworks */,
+				A1BF797617849AB800D6EDFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1BF797617849AB800D6EDFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF797517849AB800D6EDFB /* Grio Test Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1BF797717849AB800D6EDFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF797817849AB800D6EDFB /* UIKit.framework */,
+				A1BF797A17849AB800D6EDFB /* Foundation.framework */,
+				A1BF797C17849AB800D6EDFB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1BF797E17849AB800D6EDFB /* Grio Test Project */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF798717849AB800D6EDFB /* GRAppDelegate.h */,
+				A1BF798817849AB800D6EDFB /* GRAppDelegate.m */,
+				A1BF799017849AB800D6EDFB /* MainStoryboard_iPhone.storyboard */,
+				A1BF799317849AB800D6EDFB /* MainStoryboard_iPad.storyboard */,
+				A1BF799617849AB800D6EDFB /* GRViewController.h */,
+				A1BF799717849AB800D6EDFB /* GRViewController.m */,
+				A1BF797F17849AB800D6EDFB /* Supporting Files */,
+			);
+			path = "Grio Test Project";
+			sourceTree = "<group>";
+		};
+		A1BF797F17849AB800D6EDFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1BF798017849AB800D6EDFB /* Grio Test Project-Info.plist */,
+				A1BF798117849AB800D6EDFB /* InfoPlist.strings */,
+				A1BF798417849AB800D6EDFB /* main.m */,
+				A1BF798617849AB800D6EDFB /* Grio Test Project-Prefix.pch */,
+				A1BF798A17849AB800D6EDFB /* Default.png */,
+				A1BF798C17849AB800D6EDFB /* Default@2x.png */,
+				A1BF798E17849AB800D6EDFB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1BF797417849AB800D6EDFB /* Grio Test Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1BF799B17849AB800D6EDFB /* Build configuration list for PBXNativeTarget "Grio Test Project" */;
+			buildPhases = (
+				A1BF797117849AB800D6EDFB /* Sources */,
+				A1BF797217849AB800D6EDFB /* Frameworks */,
+				A1BF797317849AB800D6EDFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grio Test Project";
+			productName = "Grio Test Project";
+			productReference = A1BF797517849AB800D6EDFB /* Grio Test Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1BF796D17849AB800D6EDFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GR;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = GR;
+			};
+			buildConfigurationList = A1BF797017849AB800D6EDFB /* Build configuration list for PBXProject "Grio Test Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1BF796C17849AB800D6EDFB;
+			productRefGroup = A1BF797617849AB800D6EDFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1BF797417849AB800D6EDFB /* Grio Test Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1BF797317849AB800D6EDFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF798317849AB800D6EDFB /* InfoPlist.strings in Resources */,
+				A1BF798B17849AB800D6EDFB /* Default.png in Resources */,
+				A1BF798D17849AB800D6EDFB /* Default@2x.png in Resources */,
+				A1BF798F17849AB800D6EDFB /* Default-568h@2x.png in Resources */,
+				A1BF799217849AB800D6EDFB /* MainStoryboard_iPhone.storyboard in Resources */,
+				A1BF799517849AB800D6EDFB /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1BF797117849AB800D6EDFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1BF798517849AB800D6EDFB /* main.m in Sources */,
+				A1BF798917849AB800D6EDFB /* GRAppDelegate.m in Sources */,
+				A1BF799817849AB800D6EDFB /* GRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1BF798117849AB800D6EDFB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BF798217849AB800D6EDFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1BF799017849AB800D6EDFB /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BF799117849AB800D6EDFB /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A1BF799317849AB800D6EDFB /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1BF799417849AB800D6EDFB /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1BF799917849AB800D6EDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1BF799A17849AB800D6EDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1BF799C17849AB800D6EDFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grio Test Project/Grio Test Project-Prefix.pch";
+				INFOPLIST_FILE = "Grio Test Project/Grio Test Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1BF799D17849AB800D6EDFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Grio Test Project/Grio Test Project-Prefix.pch";
+				INFOPLIST_FILE = "Grio Test Project/Grio Test Project-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1BF797017849AB800D6EDFB /* Build configuration list for PBXProject "Grio Test Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF799917849AB800D6EDFB /* Debug */,
+				A1BF799A17849AB800D6EDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1BF799B17849AB800D6EDFB /* Build configuration list for PBXNativeTarget "Grio Test Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BF799C17849AB800D6EDFB /* Debug */,
+				A1BF799D17849AB800D6EDFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1BF796D17849AB800D6EDFB /* Project object */;
+}
