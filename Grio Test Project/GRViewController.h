@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GR-PrimeNumbers.h"
 
 @interface GRViewController : UIViewController
+
+@property (nonatomic, strong) NSMutableArray *numbersTable;
+@property (nonatomic, strong) NSMutableArray *rows;
+@property (nonatomic, strong) GR_PrimeNumbers *findPrimeNumbers;
 
 @end

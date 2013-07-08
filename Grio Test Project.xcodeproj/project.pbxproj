@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1948A1E17871DE30071676F /* GRtest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1948A1D17871DE30071676F /* GRtest.m */; };
 		A1BF797917849AB800D6EDFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797817849AB800D6EDFB /* UIKit.framework */; };
 		A1BF797B17849AB800D6EDFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797A17849AB800D6EDFB /* Foundation.framework */; };
 		A1BF797D17849AB800D6EDFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BF797C17849AB800D6EDFB /* CoreGraphics.framework */; };
@@ -19,9 +20,13 @@
 		A1BF799217849AB800D6EDFB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF799017849AB800D6EDFB /* MainStoryboard_iPhone.storyboard */; };
 		A1BF799517849AB800D6EDFB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF799317849AB800D6EDFB /* MainStoryboard_iPad.storyboard */; };
 		A1BF799817849AB800D6EDFB /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF799717849AB800D6EDFB /* GRViewController.m */; };
+		A1BF79A01784A60400D6EDFB /* GR-PrimeNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BF799F1784A60400D6EDFB /* GR-PrimeNumbers.m */; };
+		A1CAC37B1784BE4500A37BDD /* GRNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = A1CAC37A1784BE4500A37BDD /* GRNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1948A1C17871DE30071676F /* GRtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRtest.h; sourceTree = "<group>"; };
+		A1948A1D17871DE30071676F /* GRtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRtest.m; sourceTree = "<group>"; };
 		A1BF797517849AB800D6EDFB /* Grio Test Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grio Test Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BF797817849AB800D6EDFB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A1BF797A17849AB800D6EDFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,10 @@
 		A1BF799417849AB800D6EDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		A1BF799617849AB800D6EDFB /* GRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
 		A1BF799717849AB800D6EDFB /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+		A1BF799E1784A60400D6EDFB /* GR-PrimeNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GR-PrimeNumbers.h"; sourceTree = "<group>"; };
+		A1BF799F1784A60400D6EDFB /* GR-PrimeNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GR-PrimeNumbers.m"; sourceTree = "<group>"; };
+		A1CAC3791784BE4500A37BDD /* GRNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GRNumber.h; sourceTree = "<group>"; };
+		A1CAC37A1784BE4500A37BDD /* GRNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GRNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +94,16 @@
 		A1BF797E17849AB800D6EDFB /* Grio Test Project */ = {
 			isa = PBXGroup;
 			children = (
-				A1BF798717849AB800D6EDFB /* GRAppDelegate.h */,
-				A1BF798817849AB800D6EDFB /* GRAppDelegate.m */,
 				A1BF799017849AB800D6EDFB /* MainStoryboard_iPhone.storyboard */,
 				A1BF799317849AB800D6EDFB /* MainStoryboard_iPad.storyboard */,
 				A1BF799617849AB800D6EDFB /* GRViewController.h */,
 				A1BF799717849AB800D6EDFB /* GRViewController.m */,
+				A1BF799E1784A60400D6EDFB /* GR-PrimeNumbers.h */,
+				A1BF799F1784A60400D6EDFB /* GR-PrimeNumbers.m */,
+				A1CAC3791784BE4500A37BDD /* GRNumber.h */,
+				A1CAC37A1784BE4500A37BDD /* GRNumber.m */,
+				A1948A1C17871DE30071676F /* GRtest.h */,
+				A1948A1D17871DE30071676F /* GRtest.m */,
 				A1BF797F17849AB800D6EDFB /* Supporting Files */,
 			);
 			path = "Grio Test Project";
@@ -99,6 +112,8 @@
 		A1BF797F17849AB800D6EDFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A1BF798717849AB800D6EDFB /* GRAppDelegate.h */,
+				A1BF798817849AB800D6EDFB /* GRAppDelegate.m */,
 				A1BF798017849AB800D6EDFB /* Grio Test Project-Info.plist */,
 				A1BF798117849AB800D6EDFB /* InfoPlist.strings */,
 				A1BF798417849AB800D6EDFB /* main.m */,
@@ -181,6 +196,9 @@
 				A1BF798517849AB800D6EDFB /* main.m in Sources */,
 				A1BF798917849AB800D6EDFB /* GRAppDelegate.m in Sources */,
 				A1BF799817849AB800D6EDFB /* GRViewController.m in Sources */,
+				A1BF79A01784A60400D6EDFB /* GR-PrimeNumbers.m in Sources */,
+				A1CAC37B1784BE4500A37BDD /* GRNumber.m in Sources */,
+				A1948A1E17871DE30071676F /* GRtest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +331,7 @@
 				A1BF799D17849AB800D6EDFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

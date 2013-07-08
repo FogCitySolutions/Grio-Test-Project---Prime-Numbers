@@ -14,16 +14,24 @@
 
 @implementation GRViewController
 
+-(GR_PrimeNumbers *)findPrimeNumbers
+{
+	if (! _findPrimeNumbers ) _findPrimeNumbers = [[GR_PrimeNumbers alloc]init];
+    return _findPrimeNumbers  ;
+}
+
+
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	// @"52038 30594 31345 97912 85023"
+	[self.findPrimeNumbers initFromNumberString:@"5203830594313459791285023"];
+	[self.findPrimeNumbers checkForPrimes];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
+
+
 
 @end
